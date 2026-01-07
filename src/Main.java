@@ -26,12 +26,17 @@ public class Main {
         System.out.println(names.size());
 
 
-        Map<String,String> user = new HashMap<>();
-        user.put("username","admin");
-        user.put("password","admin");
+        Map<String, String> user = new HashMap<>();
+        user.put("username", "admin");
+        user.put("password", "admin");
 
         System.out.println(user.get("username"));
 
+        Map<String, String> country = Map.of(
+                "USA", "United States",
+                "Canada", "Canada",
+                "FR", "France"
+        );
     }
 }
 
