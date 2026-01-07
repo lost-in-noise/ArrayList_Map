@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,6 +25,12 @@ public class Main {
         names.remove("Jenny");
         System.out.println(names.size());
 
+
+        Map<String,String> user = new HashMap<>();
+        user.put("username","admin");
+        user.put("password","admin");
+
+        System.out.println(user.get("username"));
 
     }
 }
